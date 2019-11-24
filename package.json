@@ -1,0 +1,26 @@
+{
+  "name": "node-testing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaakkoL/node-testing-example.git"
+  },
+  "author": "Jaakko Laurila <jaakko.o.laurila@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaakkoL/node-testing-example/issues"
+  },
+  "homepage": "https://github.com/JaakkoL/node-testing-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "6.7.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2"
+  }
+}
