@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=test node_modules/.bin/mocha --exit --timeout 20000 test/**/*.test.js",
     "lint": "node_modules/.bin/eslint ."
   },
   "repository": {
@@ -27,6 +27,9 @@
   "devDependencies": {
     "eslint": "6.7.0",
     "eslint-config-airbnb-base": "14.0.0",
-    "eslint-plugin-import": "2.18.2"
+    "eslint-plugin-import": "2.18.2",
+    "mocha": "6.2.2",
+    "nock": "11.7.0",
+    "supertest": "4.0.2"
   }
 }
